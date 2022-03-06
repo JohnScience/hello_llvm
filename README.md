@@ -19,7 +19,7 @@ and then the output of the `release` build will be in `hello_llvm/target/release
 # Actual output
 
 <details>
-    <summary>`debug` build</summary>
+    <summary><code>debug</code> build</summary>
 
 ```llvm
 ; ModuleID = '1uelxnk0ai0reuli'
@@ -732,7 +732,7 @@ attributes #6 = { noreturn }
 </details>
 
 <details>
-    <summary>`release` build</summary>
+    <summary><code>release</code> build</summary>
   
 ```llvm
 ; ModuleID = 'hello_llvm.41829c61-cgu.0'
