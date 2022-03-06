@@ -18,7 +18,8 @@ and then the output of the `release` build will be in `hello_llvm/target/release
 
 # Actual output
 
-* `debug` build:
+<details>
+    <summary>`debug` build</summary>
 
 ```llvm
 ; ModuleID = '1uelxnk0ai0reuli'
@@ -728,7 +729,10 @@ attributes #6 = { noreturn }
 !330 = !DILocation(line: 666, scope: !321)
 ```
 
-* `release` build:
+</details>
+
+<details>
+    <summary>`release` build</summary>
   
 ```llvm
 ; ModuleID = 'hello_llvm.41829c61-cgu.0'
@@ -873,3 +877,4 @@ attributes #6 = { nounwind }
 !8 = distinct !{!8, !"_ZN4core3fmt9Arguments6new_v117h9e029beeeeaac882E"}
 !9 = !{i32 3171427}
 ```
+</details>
