@@ -878,3 +878,7 @@ attributes #6 = { nounwind }
 !9 = !{i32 3171427}
 ```
 </details>
+
+# Related links
+
+* ["Any way to get rustc to emit fully linked LLVM IR?", Reddit](https://www.reddit.com/r/rust/comments/9rnmfs/any_way_to_get_rustc_to_emit_fully_linked_llvm_ir/)
